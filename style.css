@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+}
+
+header img {
+    width: 70px;
+    margin-right: 30px;
+}
+
+header span {
+    color: orange;
+    font-size: 30px;
+}
+
+
+
+/* main */
+main {
+    padding: 50px;
+}
+
+main h1, 
+main h2,
+main img {
+    margin-bottom: 30px;
+}
+
+main img {
+    width: 300px;
+}
+
+.grey {
+    color: grey;
+}
+
+/* bugatty */
+.bugatty {
+    background-image: url(img/02\ BUGATTI\ CSS\ Golden\ Era.jpg);
+    background-size: cover;
+    height: 800px;
+    padding-top: 50px;
+}
+
+.bugatty p {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+
+/* footer */
+footer {
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    border-top: 2px solid white;
+}
+
+footer div {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    width: 180px;
+
+    border: 2px solid black;
+}
